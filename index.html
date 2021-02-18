@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Schedule</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="schedule.js"></script>
+</head>
+<body>
+
+<!-- Title For Page -->
+
+<h2>My Schedule</h2>
+
+<!-- Code For Form -->
+
+<form id="form" title="Choose A Day To View Schedule">
+
+    <fieldset>
+        <legend>Choose A Day To View Schedule</legend>
+    <!-- Code For Radio Buttons -->
+    <input type="radio" name="day" id="monday" value="monday" checked="checked">
+    <label for="monday">Monday</label>
+    <br>
+
+    <input type="radio" name="day" id="tuesday" value="tuesday">
+    <label for="tuesday">Tuesday</label>
+    <br>
+
+    <input type="radio" name="day" id="wednesday" value="wednesday">
+    <label for="wednesday">Wednesday</label>
+    <br>
+
+    <input type="radio" name="day" id="thursday" value="thursday">
+    <label for="thursday">Thursday</label>
+    <br>
+
+    <input type="radio" name="day" id="friday" value="friday">
+    <label for="friday">Friday</label>
+    <br>
+
+    <input type="radio" name="day" id="saturday" value="saturday">
+    <label for="saturday">Saturday</label>
+    <br>
+
+    <input type="radio" name="day" id="sunday" value="sunday">
+    <label for="sunday">Sunday</label>
+    <br>
+
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Event & Time</legend>
+
+        <p id="schedule"></p>
+    </fieldset>
+
+    <br>
+
+    <input type="submit" id="submit" value="See My Schedule">
+</form>
+
+</body>
+</html>
